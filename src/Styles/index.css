@@ -1,0 +1,65 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* App component style */
+.app {
+	min-height: 32vh;
+	min-width: 30vw;
+	background-color: #9ceaf3;
+	padding: 40px;
+	position: relative;
+}
+.ans-p {
+	position: absolute;
+	bottom: 20px;
+}
+
+/* Home component style */
+.home h1 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.home button {
+	margin: auto;
+	margin-bottom: 2px;
+	width: 330px;
+	color: #3d4c56;
+	background-color: white;
+	padding: 10px 20px;
+	border: 0px;
+	border-radius: 2px;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Dropdown component style */
+.dropdown {
+	margin: auto;
+	width: 330px;
+	background-color: white;
+	padding: 10px 20px;
+}
+.dropdown p {
+	width: 100%;
+	font-size: 18px;
+	color: #000000;
+	margin: 2px 2px;
+	cursor: pointer;
+}
+.dropdown p:hover {
+	background-color: #2b7de9;
+	color: white;
+}
